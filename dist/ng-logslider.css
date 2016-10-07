@@ -1,0 +1,102 @@
+.log-slider {
+  display: block;
+  padding-top: 13px;
+  width: 100%;
+}
+.log-slider .sel-bub {
+  color: #5b677a;
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.log-slider .bub-holder {
+  overflow: hidden;
+}
+.log-slider .bub-holder div {
+  color: #5b677a;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.log-slider .bub-holder .flr-bub {
+  float: left;
+}
+.log-slider .bub-holder .ceil-bub {
+  float: right;
+}
+.log-slider .full-bar {
+  position: absolute;
+  top: 7px;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  height: 4px;
+  background: #d8e0f3;
+}
+.log-slider .full-bar .sel-bar {
+  position: absolute;
+  height: 100%;
+  background: rgb(76, 175, 80);
+}
+.log-slider .point-holder {
+  position: relative;
+  margin-right: 10px;
+}
+.log-slider .point-holder div {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #0600ff;
+  cursor: pointer;
+}
+.log-slider .point-holder div:after {
+  position: absolute;
+  display: block;
+  text-indent: 4px;
+  letter-spacing: -2.5px;
+  font-size: 11px;
+  line-height: 20px;
+  top: 5px;
+  left: 5px;
+  width: 6px;
+  height: 6px;
+}
+.log-slider .point-holder div:hover {
+  background-color: #0600ff;
+}
+.log-slider .point-holder div.active {
+  background-color:#0600ff;
+}
+.log-slider .point-holder div.active:after {
+  color: #fff;
+}
+.log-slider .bar-holder {
+  position: relative;
+  width: 100%;
+}
+.log-slider .bar-holder:before {
+  position: absolute;
+  left: 50%;
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #8d8d8d;
+  content: "";
+}
+.tca-slider-input {
+  max-width: 60px;
+  min-width: 40px;
+  margin-top: -7px;
+  display: inline-block;
+  order: 2;
+  background: 0 0;
+  padding: 2px 2px 1px;
+  border-width: 0 0 1px;
+  line-height: 26px;
+  height: 30px;
+  border-radius: 0;
+  border-style: solid;
+  width: 100%;
+  box-sizing: border-box;
+  float: left;
+}
