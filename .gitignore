@@ -1,0 +1,8 @@
+build
+tools/typings
+node_modules
+bower_components
+.sass-cache
+.tmp
+*.zip
+dist
